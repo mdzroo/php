@@ -12,9 +12,6 @@ if (empty($name)) {
 
 }
 
-
-
-
 require 'index.view.php';
 
 
