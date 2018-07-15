@@ -8,11 +8,9 @@
 <style>
 
 	header {
-		
 		background: #e3e3e3;
 		padding: 2em;
 		text-align: center;
-
 	}
 
 </style>
@@ -23,8 +21,22 @@
 	<header>
 		
 		<h1>
+				<ul>
+
+				<?php
+
+					// func
+					shuffle($names);
+
+					foreach ($names as $name) {
+						
+							echo '<li>' . $name . '</li>';
+
+					}
+				?>
+					
+				</ul>
 				
-				<?= $greeting ?>
 				
 		</h1>
 
