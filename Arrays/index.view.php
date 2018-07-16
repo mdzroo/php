@@ -11,6 +11,13 @@
 		background: #e3e3e3;
 		padding: 2em;
 		text-align: center;
+
+	}
+
+	ul.list {
+
+		list-style-type: none; 
+
 	}
 
 </style>
@@ -21,7 +28,7 @@
 	<header>
 		
 		<h1>
-				<ul>
+				<ul class="list">
 
 				<?php
 

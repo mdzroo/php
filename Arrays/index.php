@@ -4,7 +4,8 @@ $names = [
 
 		'Baril',
 		'Skarm',
-		'XEXUS'
+		'XEXUS',
+		'Bla'
 ];
 
 
