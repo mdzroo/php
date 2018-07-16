@@ -6,18 +6,35 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        body, ul li {
+            list-style-type: none;
+        }
+    </style>
 </head>
 <body>
 
-<ul>
-    <?php foreach ($task as $key => $val ) : ?>
+<h1>Task for the day</h1>
 
-    <li>
-        <strong><?= ucwords($key); ?></strong> <?= $val ?>
-    </li>
+    <ul>
 
-    <?php endforeach; ?>
-</ul>
+        <li>
+            <strong>Name: </strong> <?= $task['title'] ?>
+        </li>
+
+        <li>
+            <strong>Due date: </strong> <?= $task['due'] ?>
+        </li>
+
+        <li>
+            <strong>By: </strong> <?= $task['assigned_to'] ?>
+        </li>
+
+        <li>
+            <strong>Status: </strong> <?= $task['completed'] ? 'Complete' : 'Incomplete'; ?>
+        </li>
+
+    </ul>
 
 
 </body>
