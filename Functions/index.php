@@ -1,5 +1,6 @@
 <?php
 
+require 'functions.php';
 
 $tasks = [
     'task1',
@@ -7,7 +8,7 @@ $tasks = [
     'task3'
 ];
 
-?>
 
 
-<pre><?= var_dump($tasks) ?></pre>
+require 'index.view.php';
+
