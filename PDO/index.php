@@ -1,5 +1,6 @@
 <?php
 
+require 'task.php';
 
 try {
 
@@ -20,7 +21,7 @@ $statement->execute();
 
 
 // Fetch All from db
-$tasks = $statement->fetchAll(PDO::FETCH_OBJ);
+$tasks = $statement->fetchAll(PDO::FETCH_CLASS, 'Task');
 
 //var_dump($results);
 

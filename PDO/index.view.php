@@ -21,12 +21,11 @@
         <li>
 
             <?php if ($task->completed) : ?>
-            <span style="text-decoration: line-through;">
+            <span style="text-decoration: line-through; color: darkred;">
             <?php endif; ?>
 
 
             <?= $task->description ?>
-
 
             <?php if ($task->completed) : ?>
             </span>

@@ -16,7 +16,7 @@
             <li>
 
                 <?php if ($task->completed) : ?>
-                    <span style="text-decoration: line-through;">
+                    <span style="text-decoration: line-through; color: blue;">
                 <?php endif; ?>
 
 
