@@ -1,13 +1,13 @@
-<?php 
-
-
+<?php
 
 
 $artists = [
 
-'One',
-'Two',
-'Three'
+    'Lumieux',
+    'A-Brill',
+    'Nu Zau',
+    'Nu Zau',
+    'Maxim'
 
 ];
 

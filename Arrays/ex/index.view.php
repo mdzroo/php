@@ -14,7 +14,7 @@
 
             <?php
 
-            //shuffle($artists);
+            shuffle($artists);
 
             foreach ($artists as $artist) {
 
