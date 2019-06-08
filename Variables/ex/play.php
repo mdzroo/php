@@ -2,6 +2,8 @@
 
 $greeting = "hello boss";
 
+$newvar = 'Boss0';
+
 echo $greeting;
 
 echo '<br>';
