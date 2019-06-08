@@ -3,8 +3,10 @@
 $greeting = "hello boss";
 
 $newvar = 'Boss0';
+$secondTest = 'test';
 
 echo $greeting;
+
 
 echo '<br>';
 
