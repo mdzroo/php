@@ -7,9 +7,6 @@ class Task {
 
     public $completed = false;
 
-
-    // special method name
-    // constructor
     // automatically triggered on instantiation
     public function __construct($description)
     {
@@ -33,11 +30,14 @@ $tasks = [
 
     new Task('Go to the store'),
     new Task('Finish my screen task'),
-    new Task('Clean my room')
+    new Task('Clean my room'),
+    new Task('hey hey'),
+    new Task('hey hey 2')
 
 ];
 
 $tasks[0]->complete();
 $tasks[2]->complete();
+$tasks[4]->complete();
 
 require 'index.view.php';
